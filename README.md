@@ -13,18 +13,18 @@ Just open your Command Palette using
 
 Wndows
 
-```http
+```bash
   Ctrl+Shift+P
 ```
 
 Mac
 
-```http
+```bash
   Command+Shift+P
 ```
 
 and type following Command:
 
-```http
+```bash
   Create Plugin
 ```
