@@ -1,8 +1,10 @@
 {
   "name": "athena-plugin-generator",
   "displayName": "Athena Plugin Generator",
-  "description": "easily generate the needed folder structure for an athena plugin.",
-  "version": "0.0.1",
+  "description": "Effortlessly generate the required folder structure for a plugin designed for the Athena Framework by Stuyk.",
+  "version": "1.0",
+  "author": "Liam R. | MnkyArts",
+  "publisher": "Liam R. | MnkyArts",
   "engines": {
     "vscode": "^1.81.0"
   },
