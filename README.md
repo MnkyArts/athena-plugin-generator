@@ -1,5 +1,7 @@
-![Logo](https://i.imgur.com/UB52jfL.png#gh-light-mode-only)
-![Logo](https://i.imgur.com/mt66jnn.png#gh-dark-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://i.imgur.com/mt66jnn.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://i.imgur.com/UB52jfL.png">
+</picture>
 
 # Athena Plugin Generator
 
