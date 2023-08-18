@@ -1,6 +1,11 @@
 # Change Log
 
-All notable changes to the "athena-plugin-generator" extension will be documented in this file.
+All notable changes to the "athena-plugin-generator" extension.
+
+## [1.1.2]
+
+- Added App.vue
+- Added gitkeep to folders
 
 ## [1.1.1]
 

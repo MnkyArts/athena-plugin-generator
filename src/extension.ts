@@ -37,11 +37,7 @@ function createFolderStructure(folderName: string, hasWebviewFolder: boolean) {
     const clientFolderPath = path.join(pluginsFolderPath, folderName, "client");
     const serverFolderPath = path.join(pluginsFolderPath, folderName, "server");
     const sharedFolderPath = path.join(pluginsFolderPath, folderName, "shared");
-    const webviewFolderPath = path.join(
-      pluginsFolderPath,
-      folderName,
-      "webview"
-    );
+    const webviewFolderPath = path.join(pluginsFolderPath, folderName, "webview");
 
     const clientSrcPath = path.join(clientFolderPath, "src");
     const serverSrcPath = path.join(serverFolderPath, "src");
@@ -51,6 +47,7 @@ function createFolderStructure(folderName: string, hasWebviewFolder: boolean) {
       fs.mkdirSync(clientFolderPath);
       fs.mkdirSync(serverFolderPath);
       fs.mkdirSync(sharedFolderPath);
+      fs.writeFileSync(path.join(sharedFolderPath, ".gitkeep"), "");
 
       if (hasWebviewFolder) {
         fs.mkdirSync(webviewFolderPath);
