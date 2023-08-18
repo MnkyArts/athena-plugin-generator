@@ -48,6 +48,7 @@ function createFolderStructure(folderName: string, hasWebviewFolder: boolean) {
     );
     const clientFolderPath = path.join(pluginsFolderPath, folderName, "client");
     const serverFolderPath = path.join(pluginsFolderPath, folderName, "server");
+    const sharedFolderPath = path.join(pluginsFolderPath, folderName, "shared");
     const webviewFolderPath = path.join(
       pluginsFolderPath,
       folderName,
@@ -61,6 +62,7 @@ function createFolderStructure(folderName: string, hasWebviewFolder: boolean) {
       fs.mkdirSync(path.join(pluginsFolderPath, folderName));
       fs.mkdirSync(clientFolderPath);
       fs.mkdirSync(serverFolderPath);
+      fs.mkdirSync(sharedFolderPath);
 
       if (hasWebviewFolder) {
         fs.mkdirSync(webviewFolderPath);
